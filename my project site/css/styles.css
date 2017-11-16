@@ -1,0 +1,154 @@
+/* Base Styles -------------------- */
+
+body {
+  color: blue;
+  margin: 0;
+  font: 1em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: lightgrey; 
+}
+
+
+h1 {  
+  font-size:7.625rem; /* 90px/16px  */
+  color: rgba(255, 255, 255, 1);
+  text-transform:upper-alpha;
+  font-weight: normal;
+  line-height: 1;
+  text-align: center;
+  text-shadow: 0 1px 0 #ccc,
+			   0 2px 0 #c9c9c9,
+			   0 3px 0 #bbb,
+			   0 4px 0 #b9b9b9,
+			   0 5px 0 #aaa,
+			   0 6px 1px rgba(0,0,0,.1),
+			   0 0 5px rgba(0,0,0,.1),
+			   0 1px 3px rgba(0,0,0,.3),
+			   0 3px 5px rgba(0,0,0,.2),
+			   0 5px 10px rgba(0,0,0,.25),
+			   0 10px 10px rgba(0,0,0,.2),
+			   0 20px 20px rgba(0,0,0,.15);
+
+
+}
+
+h2 {
+  font-size: 2.3125em; /* 53px/16px  */
+  font-weight: normal;
+  line-height: 1.1;
+  margin-bottom: .3em;/* 26px */
+
+ 
+
+}
+
+h3 {
+  font-size: 2em; /* 20px/16px  */
+  color: #000;
+  line-height: .5em;
+  margin-bottom: .5em; /* 34px*/
+  text-align: center;
+}
+
+
+h4 {
+  font-size: 3.3125em; /* 53px/16px  */
+  font-weight: bolder;
+  line-height: 1.8;
+  margin-bottom: .4em;/* 26px */
+  margin-top: .4em;
+  text-align: center;
+  color: #000;
+  
+}
+
+h5 {
+  font-weight: bolder;
+  color: #000;
+  font-size: 1.2em;
+  margin-top: 3em;
+  margin-bottom: .7em;
+}
+
+
+h6 {
+  font-weight: bolder;
+  color: #000;
+  font-size: 1em;
+  margin-top: 1em;
+  margin-bottom: .7em;
+
+}
+
+
+/* Pseudo-classes ------------------ */
+
+a:link {
+  color: blue;
+  text-decoration: none;
+
+}
+
+a:visited {
+  color: lightblue;
+}
+
+a:hover {
+  color: orange;
+}
+
+a:active {
+  color: lightcoral;
+}
+
+/* Main Styles --------------------- */
+
+.main-header {
+  background-color: #ffa949;
+
+
+}
+
+.title {
+  color: white;
+  font-size: 1.625rem; /* 26px/16px */
+  
+}
+
+.intro {
+  font-size: 1.25em; /* 20px/16px */
+  line-height: 1.6;  
+}
+
+
+.main-header,
+.main-footer {
+  text-align: center;
+}
+
+.main-footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 10px solid #fff;
+   
+}
+
+.t-border {
+  border-top: 2px solid lightgrey;
+}
+
+/* Layout Styles ------------------ */
+ .primary-content
+ .secondary-content {
+  width: 60%;
+  margin: auto;
+}
+
+
+/* @Media Queries----------------- */
+.primary-content
+.secondary-content{
+  float: left;
+  display: inline-block;
+
+}
+
